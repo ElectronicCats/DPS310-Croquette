@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:DSP310-cache
+LIBS:DPS310-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "DSP310 Breakout is optional and will setthe address to 0x76 insteadDSP310"
+Title "Croquette DPS310 is optional and will setthe address to 0x76 insteadDSP310"
 Date "2020-01-10"
 Rev "1.0"
 Comp "Electronic Cats"
@@ -168,8 +168,6 @@ F 3 "" H 4320 3565 50  0001 C CNN
 	1    4320 3565
 	1    0    0    -1  
 $EndComp
-Text Notes 3705 3570 0    50   ~ 0
-R3 select\nthe address to \n0x76 instead\nof 0x77.
 Text Label 4110 3030 2    50   ~ 0
 INT
 Wire Wire Line
