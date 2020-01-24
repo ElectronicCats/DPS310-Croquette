@@ -1,4 +1,4 @@
-# ElectronicCats DPS310XT
+# ElectronicCats Croquette DPS310
 
 ## Summary
 
