@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name dps310)(type Legacy)(uri ${KIPRJMOD}/dps310.lib)(options "")(descr ""))
+  (lib (name DPS310-rescue)(type Legacy)(uri ${KIPRJMOD}/DPS310-rescue.lib)(options "")(descr ""))
 )
