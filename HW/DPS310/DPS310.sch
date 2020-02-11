@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DPS310-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -117,16 +118,9 @@ F 3 "" H 5600 3365 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4615 2930 4480 2930
-Wire Wire Line
-	4480 2730 4480 2930
-Connection ~ 4480 2930
-Wire Wire Line
 	4230 2930 4230 2730
 Wire Wire Line
-	4230 2930 4480 2930
-Wire Wire Line
-	4105 2780 4615 2780
+	4105 2780 4480 2780
 Wire Wire Line
 	4230 2930 4110 2930
 Connection ~ 4230 2930
@@ -238,7 +232,7 @@ $EndComp
 Text Label 4515 3180 0    50   ~ 0
 CS
 $Comp
-L Connector:Screw_Terminal_01x06 J1
+L DPS310-rescue:Screw_Terminal_01x06-Connector J1
 U 1 1 5E40900C
 P 4900 4370
 F 0 "J1" V 4864 3982 50  0000 R CNN
@@ -270,7 +264,7 @@ SDO_ADR
 Text Label 7205 3960 0    50   ~ 0
 SDO_ADR
 $Comp
-L power:VCC #PWR09
+L DPS310-rescue:VCC-power #PWR09
 U 1 1 5E411E48
 P 7090 3655
 F 0 "#PWR09" H 7090 3505 50  0001 C CNN
@@ -285,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	3475 3180 4615 3180
 $Comp
-L Device:R_Small R4
+L DPS310-rescue:R_Small-Device R4
 U 1 1 5E4159C2
 P 3475 2940
 F 0 "R4" H 3534 2986 50  0000 L CNN
@@ -298,7 +292,7 @@ $EndComp
 Wire Wire Line
 	3475 2840 3475 2760
 $Comp
-L power:VCC #PWR08
+L DPS310-rescue:VCC-power #PWR08
 U 1 1 5E417779
 P 3475 2760
 F 0 "#PWR08" H 3475 2610 50  0001 C CNN
@@ -308,4 +302,11 @@ F 3 "" H 3475 2760 50  0001 C CNN
 	1    3475 2760
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4230 2930 4615 2930
+Wire Wire Line
+	4480 2730 4480 2780
+Connection ~ 4480 2780
+Wire Wire Line
+	4480 2780 4615 2780
 $EndSCHEMATC
