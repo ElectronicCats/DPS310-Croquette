@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DPS310-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -59,18 +58,7 @@ F 3 "~" H 5910 2915 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5515 2780 5675 2780
-Wire Wire Line
-	5675 2780 5675 2635
-Wire Wire Line
 	5515 2880 5675 2880
-Wire Wire Line
-	5675 2880 5675 2780
-Connection ~ 5675 2780
-Wire Wire Line
-	5680 2785 5910 2785
-Wire Wire Line
-	5910 2785 5910 2815
 Wire Wire Line
 	5910 3015 5910 3085
 Wire Wire Line
@@ -309,4 +297,15 @@ Wire Wire Line
 Connection ~ 4480 2780
 Wire Wire Line
 	4480 2780 4615 2780
+Wire Wire Line
+	5675 2635 5675 2780
+Wire Wire Line
+	5515 2780 5675 2780
+Connection ~ 5675 2780
+Wire Wire Line
+	5675 2780 5675 2880
+Wire Wire Line
+	5910 2780 5675 2780
+Wire Wire Line
+	5910 2780 5910 2815
 $EndSCHEMATC
